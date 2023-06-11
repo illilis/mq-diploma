@@ -61,11 +61,11 @@ body {
   justify-content: center;
 }
 
-
+/*
 .popup-hidden {
   display: none;
 }
-
+*/
 
 .popup-container {
   color: #000000;
@@ -112,7 +112,7 @@ body {
   background-color: #b59f5b;
   opacity: 0.4;
     
-  margin: 5px auto 43px;
+  margin: 5px auto 27px;
 }
 
 .popup-form {
@@ -128,7 +128,7 @@ body {
 }
 
 .popup-select-label {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .popup-select-field {
@@ -152,7 +152,7 @@ body {
   background-image: url("../svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-size: 10px;
-  background-position: right 15px center;
+  background-position: right 13px center;
 
   cursor: pointer;
 }
@@ -163,12 +163,11 @@ body {
 }
 
 .popup-subscribe {
-  margin-top: 33px;
+  margin-top: 31px;
 }
 
 .popup-radio-label {
   display: block;
-  margin-bottom: 10px;
 }
 
 .popup-radio-inputs {
@@ -202,7 +201,7 @@ body {
   position: relative;
   top: 5px;
 
-  margin-right: 5px;
+  margin-right: 3px;
 
   cursor: pointer;
 }
@@ -219,14 +218,14 @@ body {
 }
 
 .popup-content {
-  margin-top: 33px;
+  margin-top: 30px;
 
   display: flex;
   flex-direction: column;
 }
 
 .popup-content-label {
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 .popup-content-textarea {
@@ -255,7 +254,7 @@ body {
 }
 
 .popup-button {
-  margin-top: 26px;
+  margin-top: 28px;
   margin-bottom: 24px;
 
   width: 100%;
@@ -1041,9 +1040,13 @@ body {
     margin-left: 50px;
   }
 
+  .product-img-wrap {
+    width: 300px;
+    height: 204px;
+  }
+
   .product-img {
     display: block;
-    width: 300px;
   }
 
   .product-body {
